@@ -1,0 +1,14 @@
+environments:
+  dev:
+  stage:
+  prod:
+---
+releases:
+  - name: web-app-fastapi
+    chart: chart/
+    installed: true 
+    values:
+      - chart/values.yaml
+      - values/{{ .Environment.Name }}/values.yaml
+    secrets:
+      - values/{{ .Environment.Name }}/secrets.yaml

@@ -1,6 +1,6 @@
 apiVersion: v2
-name: hello-world
-description: A Helm chart for hello-world
+name: app
+description: A Helm chart for web-app-fastapi
 type: application
 version: 0.0.1
 appVersion: 0.0.1
