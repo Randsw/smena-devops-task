@@ -5,7 +5,7 @@
 
 1. Скачивание репозитория
     ```bash
-    git clone git@github.com:smenateam/assignments.git
+    git clone git@github.com:xxxxxxxx/assignments.git
     cd assignments/devops
     ```
    
